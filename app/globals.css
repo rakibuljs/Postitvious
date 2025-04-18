@@ -5,3 +5,6 @@
   --color-accent: #f3f3f3;
   --color-dark: #191a23;
 }
+.custom-shadow {
+  box-shadow: 0px 5px 0px 0px #191a23;
+}

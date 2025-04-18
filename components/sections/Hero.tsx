@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="py-[70px]">
       <Container>
-        <div className="flex flex-col md:flex-row md:justify-between gap-y-[80px] md:gap-y-0">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-y-[80px] lg:gap-y-0">
           {/* left section */}
           <div className="flex flex-col gap-y-[35px]">
             <h1 className="text-4xl  text-black font-medium md:text-[60px] md:max-w-[531px] md:leading-[80px]">

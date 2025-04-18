@@ -31,7 +31,7 @@ const Header = () => {
             </Link>
           </div>
           {/* navitems */}
-          <ul className="hidden md:flex items-center gap-x-10 text-black text-xl">
+          <ul className="hidden lg:flex items-center gap-x-10 text-black text-xl">
             {navitems.map((item, key) => (
               <NavItems text={item.text} key={key} href={item.href} />
             ))}
@@ -39,7 +39,7 @@ const Header = () => {
               <Button text="Request a quote" className="bg-white" />
             </Link>
           </ul>
-          <div className="md:hidden block">
+          <div className="lg:hidden block">
             {isMenuOpen ? (
               <IoClose size={24} onClick={toggleMenu} />
             ) : (
@@ -48,7 +48,7 @@ const Header = () => {
           </div>
         </div>
         {isMenuOpen && (
-          <div className="mt-4 md:hidden">
+          <div className="mt-4 lg:hidden">
             <MobileMenu />
           </div>
         )}
