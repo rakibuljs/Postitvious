@@ -16,7 +16,7 @@ const ServiceCard = ({ title, image, bgColor, titleBgColor }: ServiceProps) => {
       >
         <div className="flex flex-col gap-y-[93px]">
           <h3
-            className="text-[30px] font-medium rounded-md pl-2 mx-auto"
+            className="md:text-[30px] text-xl font-medium rounded-md pl-4 md:pl-0 mx-auto"
             style={{ backgroundColor: titleBgColor }}
           >
             {title}
@@ -55,8 +55,8 @@ const ServiceCard = ({ title, image, bgColor, titleBgColor }: ServiceProps) => {
               className={`${
                 title === "Analytics and Tracking" ||
                 title === "Social Media Marketing"
-                  ? "text-white text-xl"
-                  : "text-xl text-black"
+                  ? "text-white md:text-xl text-sm"
+                  : "md:text-xl text-black"
               }`}
             >
               Learn more
